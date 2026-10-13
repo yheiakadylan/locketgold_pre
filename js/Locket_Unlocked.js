@@ -2,7 +2,7 @@
 // Locket Remote Config Rewrite
 // Endpoint: firebaseremoteconfig.googleapis.com
 // Dùng cho: Loon / Quantumult X / Surge / Shadowrocket
-// Tác giả: @duyvinh09
+// Tác giả: @haitrinh
 // ============================================================
 
 var ua = $request.headers["User-Agent"] || $request.headers["user-agent"] || "";
@@ -249,12 +249,12 @@ if (ua.includes("Locket")) {
             section: "🎨 Decorative by Duy Vinh",
             items: [
                 {
-                    overlay_id: "caption:duyvinh09",
+                    overlay_id: "caption:Hai Trinh",
                     source: "remote",
                     caption: {
                         background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"], },
                         max_lines: 1,
-                        text: "💻 duyvinh09",
+                        text: "💻 Hai Trinh",
                         text_color: "#183153",
                         type: "static_content",
                     },
@@ -1237,8 +1237,8 @@ if (ua.includes("Locket")) {
         title: { en: "Locket Gold", vi: "Locket Gold" },
         profile_banner_title: { en: "Locket Gold", vi: "Locket Gold", },
         completed_title: {
-            en: "Welcome to Gold!\nCracked by duyvinh09",
-            vi: "Chào mừng bạn đến với Locket Gold!\nCrack bởi duyvinh09",
+            en: "Welcome to Gold!\nCracked by Hai Trinh",
+            vi: "Chào mừng bạn đến với Locket Gold!\nCrack bởi Hai Trinh",
         },
     });
     obj.entries.upsell_features = JSON.stringify({
@@ -1338,7 +1338,7 @@ if (ua.includes("Locket")) {
     obj.entries.widget_last_sent_indicator = "false";
     obj.entries.widget_sync_token_reload_mode = "clearTokenNever";
     obj.entries.widget_frame_event = JSON.stringify({
-        uid: "duyvinh09",
+        uid: "Hai Trinh",
         url: "https://cdn.upanhlaylink.com/i/RuYKzIiU.png",
         use_local_time_zone: true,
         placement: "below",
