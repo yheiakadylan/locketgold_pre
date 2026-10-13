@@ -246,7 +246,7 @@ if (ua.includes("Locket")) {
             ],
         },
         {
-            section: "🎨 Decorative by Duy Vinh",
+            section: "🎨 Decorative by Hai Trinh",
             items: [
                 {
                     overlay_id: "caption:Hai Trinh",

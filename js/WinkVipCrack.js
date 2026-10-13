@@ -6,7 +6,7 @@
 hostname = api-sub.meitu.com
 *******************************/
 
-var lienHe = "t.me/Hai Trinh";
+var lienHe = "github.com/yheiakadylan/locketgold_pre";
 var _a = {};
 (function (options) {
     options._decode = "http://www.sojson.com/javascriptobfuscator.html";
