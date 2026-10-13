@@ -345,15 +345,15 @@ var haitrinhSub = {
   expires_date: _0x31b760(388, "xFMr"),
   grace_period_expires_date: null,
   unsubscribe_detected_at: null,
-  original_purchase_date: "2005-01-09T01:04:17Z",
-  purchase_date: "2005-01-09T01:04:17Z",
+  original_purchase_date: "2004-05-26T01:04:17Z",
+  purchase_date: "2004-05-26T01:04:17Z",
   store: "app_store"
 };
 var haitrinhEnt = {
   grace_period_expires_date: null,
-  purchase_date: "2005-01-09T01:04:17Z",
+  purchase_date: "2004-05-26T01:04:17Z",
   product_identifier: _0x31b760(404, "!sYB"),
-  expires_date: "2099-01-09T01:04:17Z"
+  expires_date: "2099-05-26T01:04:17Z"
 };
 const match = Object.keys(mapping).find(_0x2d4787 => ua.includes(_0x2d4787));
 if (match) {
