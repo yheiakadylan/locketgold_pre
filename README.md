@@ -11,7 +11,7 @@ Repository: [yheiakadylan/locketgold_pre](https://github.com/yheiakadylan/locket
 
 ### 1. Locket Gold Module (Khuyên dùng)
 - **Đường dẫn cài đặt trực tiếp trong Shadowrocket:**  
-  `https://raw.githubusercontent.com/yheiakadylan/locketgold_pre/refs/heads/main/modules/Locket_Gold.sgmodule`
+  `https://raw.githubusercontent.com/yheiakadylan/locketgold_pre/refs/heads/main/modules/yhei_Locket_Gold.sgmodule`
 - **Cách dùng:**
   1. Mở **Shadowrocket** > Chuyển đến tab **Cấu Hình (Config)** > chọn **Modules**.
   2. Bấm dấu **+** ở góc trên cùng.
@@ -21,14 +21,14 @@ Repository: [yheiakadylan/locketgold_pre](https://github.com/yheiakadylan/locket
 
 ### 2. All In One Module (.sgmodule)
 Tổng hợp mở khóa nhiều ứng dụng (Locket, Spotify, YouTube adblock, Camera360, v.v.):  
-`https://raw.githubusercontent.com/yheiakadylan/locketgold_pre/refs/heads/main/All_In_One.sgmodule`
+`https://raw.githubusercontent.com/yheiakadylan/locketgold_pre/refs/heads/main/yhei_All_In_One.sgmodule`
 
 ### 3. All In One Config (.conf)
 Cấu hình hoàn chỉnh cho Shadowrocket:  
-`https://raw.githubusercontent.com/yheiakadylan/locketgold_pre/refs/heads/main/All_In_One.conf`
+`https://raw.githubusercontent.com/yheiakadylan/locketgold_pre/refs/heads/main/yhei_All_In_One.conf`
 
 ### 4. Fake GPS / Location Spoofer (.sgmodule)
-`https://raw.githubusercontent.com/yheiakadylan/locketgold_pre/refs/heads/main/modules/ios-location-spoofer.sgmodule`
+`https://raw.githubusercontent.com/yheiakadylan/locketgold_pre/refs/heads/main/modules/yhei_ios-location-spoofer.sgmodule`
 
 ---
 

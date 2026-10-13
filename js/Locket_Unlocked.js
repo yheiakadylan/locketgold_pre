@@ -25,6 +25,25 @@ if (ua.includes("Locket")) {
         custom_widget_frames: "enabled",
         streak_recovery: "enabled",
     });
+    // ============================================
+    // Cấu hình thời lượng video 30 giây (Thử nghiệm)
+    // ============================================
+    obj.entries.video_max_duration = "30";
+    obj.entries.max_video_duration = "30";
+    obj.entries.max_video_length = "30";
+    obj.entries.video_length = "30";
+    obj.entries.longer_video_duration = "30";
+    obj.entries.longer_video_max_duration = "30";
+    obj.entries.longer_video_seconds = "30";
+    obj.entries.video_duration_seconds = "30";
+    obj.entries.max_video_duration_seconds = "30";
+    obj.entries.video_recording_limit_sec = "30";
+    obj.entries.video_max_seconds = "30";
+    obj.entries.camera_video_max_duration = "30";
+    obj.entries.video_record_max_duration = "30";
+    obj.entries.video_record_duration = "30";
+    obj.entries.max_recorded_duration = "30";
+
     obj.entries.history_ads_mode = "off";
     obj.entries.history_ads_prefetch_count = "0";
     obj.entries.history_ads_prefetch_immediate = "false";
