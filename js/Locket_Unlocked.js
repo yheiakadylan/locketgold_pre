@@ -17,6 +17,12 @@ if (ua.includes("Locket")) {
         locket_views: "enabled",
         long_captions: "enabled",
         longer_video: "enabled",
+        longer_videos: "enabled",
+        video_recording: "enabled",
+        video_upload: "enabled",
+        camera_roll_video: "enabled",
+        camera_roll_video_picker: "enabled",
+        gallery_video_picker: "enabled",
         unlimited_friends: "enabled",
         priority_support: "enabled",
         profile_badge: "enabled",
@@ -43,6 +49,22 @@ if (ua.includes("Locket")) {
     obj.entries.video_record_max_duration = "30";
     obj.entries.video_record_duration = "30";
     obj.entries.max_recorded_duration = "30";
+    obj.entries.video_config = JSON.stringify({
+        enabled: true,
+        max_duration: 30,
+        recording_duration: 30,
+        longer_videos_duration: 30,
+        camera_roll_enabled: true,
+        max_length: 30
+    });
+    obj.entries.video_duration = "30";
+    obj.entries.longer_videos_duration = "30";
+    obj.entries.longer_videos_max_duration = "30";
+    obj.entries.camera_roll_video_picker = "true";
+    obj.entries.camera_roll_video_enabled = "true";
+    obj.entries.upload_video_enabled = "true";
+    obj.entries.video_upload_enabled = "true";
+    obj.entries.video_from_camera_roll = "true";
 
     obj.entries.history_ads_mode = "off";
     obj.entries.history_ads_prefetch_count = "0";
