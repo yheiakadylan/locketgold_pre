@@ -1273,6 +1273,9 @@ if (ua.includes("Locket")) {
     });
     obj.entries.android_subscribe_gold_button_enabled = "false";
     obj.entries.profile_badge_visible = "true";
+    obj.entries.profile_badge_enabled = "true";
+    obj.entries.show_profile_badge = "true";
+    obj.entries.profile_badge = "true";
     obj.entries.paywall_config = JSON.stringify({
         uid: "v2_testflight",
         title: { en: "Locket Gold", vi: "Locket Gold" },
@@ -1289,6 +1292,7 @@ if (ua.includes("Locket")) {
         locket_views: true,
         remove_ads: true,
         custom_widget_frames: true,
+        profile_badge: true,
     });
     try {
         var streak = JSON.parse(obj.entries.streak_config);
